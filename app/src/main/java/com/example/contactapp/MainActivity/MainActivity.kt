@@ -1,4 +1,4 @@
-package com.example.contactapp
+package com.example.contactapp.MainActivity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,6 +6,7 @@ import androidx.appcompat.widget.SearchView
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.contactapp.R
 import com.example.contactapp.model.User
 import com.example.contactapp.viewmodel.UserViewModel
 import java.util.ArrayList

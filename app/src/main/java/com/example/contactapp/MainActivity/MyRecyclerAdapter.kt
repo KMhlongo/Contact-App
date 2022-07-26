@@ -1,4 +1,4 @@
-package com.example.contactapp
+package com.example.contactapp.MainActivity
 
 import android.view.LayoutInflater
 import android.view.View
@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.example.contactapp.R
 import com.example.contactapp.model.User
 import com.example.contactapp.viewmodel.UserViewModel
 import java.util.*
